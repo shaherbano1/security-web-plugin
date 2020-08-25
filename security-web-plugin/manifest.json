@@ -1,0 +1,23 @@
+{
+  "name": "Steganalysis",
+  "description": "Scrape web images",
+  "version": "2.0",
+  "permissions":[
+      "activeTab",
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+      "https://www.google.com/*",
+      "http://www.google.com/*",
+      "http://127.0.0.1:8000/steganalysis/detect/",
+      "http://127.0.0.1:8000/steganalysis/detect/*",
+      "https://www.allnigerianrecipes.com/snacks/pancake/",
+      "https://www.allnigerianrecipes.com/snacks/pancake/*"
+  ],
+  "browser_action":{
+      "default_title": "Image Source",
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+  },
+  "manifest_version": 2 
+}

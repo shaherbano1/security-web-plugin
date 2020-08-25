@@ -1,0 +1,75 @@
+
+body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    background: url('https://image.shutterstock.com/z/stock-vector-hacking-and-cyber-crime-vertical-vector-banner-template-with-icons-of-gadgets-and-hacker-s-554156491.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.main {
+    overflow: hidden;
+    width: 445px;
+    height: 450px;
+    overflow:auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+#scraper {
+    margin-top: 10%;
+    margin-left: 33%;
+}
+
+#exif {
+    margin-top: 20%;
+    margin-left: 33%;
+}
+
+#images {
+    margin-top: 5%;
+    margin-left: 33%;
+}
+
+#orignal_user_image{
+    height: 30%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 33%;
+}
+
+#view_btn {
+    margin-left: 33%;
+}
+
+#exif_data {
+    margin-left: 33%;
+}
+
+#myDIV {
+    display: none;
+}
+
+#input_file{
+    margin-top: 5%;
+    margin-left: 33%;
+}
+
+#main_heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 33%;
+}
+
+#no-padding{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-image{
+    width: 40%;
+}
+
+#links{
+    overflow:auto;
+    padding: 0px;
+}
